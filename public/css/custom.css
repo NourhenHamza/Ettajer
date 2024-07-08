@@ -1,0 +1,56 @@
+/* custom.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar Items */
+  .navbar .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navbar .nav-item img {
+    border: 2px solid #ddd;
+  }
+  
+  /* Language Dropdown */
+  .language-dropdown .btn-flag {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+  }
+  
+  .language-dropdown .btn-flag:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .language-dropdown .dropdown-menu {
+    min-width: 160px;
+  }
+  
+  .language-dropdown .dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .language-dropdown .flag-icon {
+    width: 20px;
+    height: auto;
+  }
+  
+  .language-dropdown .flag-icon-us {
+    background-image: url('https://flagcdn.com/w20/us.png');
+  }
+  
+  .language-dropdown .flag-icon-fr {
+    background-image: url('https://flagcdn.com/w20/fr.png');
+  }
+  

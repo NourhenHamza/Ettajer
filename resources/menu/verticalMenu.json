@@ -1,0 +1,188 @@
+{
+  "menu": [
+    {
+      "url": "\/",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons mdi mdi-home-outline",
+      "slug": "dashboard",
+      "submenu": [
+        {
+          "url": "\/dashboard\/analytics",
+          "name": "Analytics",
+          "slug": "dashboard-analytics"
+        }
+      ]
+    },
+    {
+      "url": "\/medical-type",
+      "name": "Add Medical Type",
+      "icon": "menu-icon tf-icons mdi mdi-account-plus",
+      "slug": "medical-type"
+    },
+    {
+      "url": "\/medical-team\/show\/dynamic-medical-types",
+      "name": "Medical Types",
+      "icon": "menu-icon tf-icons mdi mdi-medical-bag",
+      "slug": "dynamic-medical-types",
+      "submenu": [
+        {
+          "url": "\/medical-team\/show\/sage-femme",
+          "name": "sage femme",
+          "slug": "medical-team-sage-femme"
+        },
+        {
+          "url": "\/medical-team\/show\/docteur",
+          "name": "docteur",
+          "slug": "medical-team-docteur"
+        }
+      ]
+    },
+    {
+      "url": "\/create-medical-team",
+      "name": "Add Medical Team",
+      "icon": "menu-icon tf-icons mdi mdi-account-group",
+      "slug": "medical-team"
+    },
+    {
+      "url": "\/service-category",
+      "name": "Service Category",
+      "icon": "menu-icon tf-icons mdi mdi-form-select",
+      "slug": "service-category",
+      "submenu": [
+        {
+          "url": "\/service-category",
+          "name": "Service Category",
+          "slug": "service-category-tables"
+        },
+        {
+          "url": "\/service-sub-category",
+          "name": "Service SubCategory",
+          "slug": "service-sub-category"
+        }
+      ]
+    },
+    {
+      "name": "Pharmacy",
+      "icon": "menu-icon tf-icons mdi mdi-hospital-building",
+      "slug": "pharmacy",
+      "url": "\/pharmacy"
+    },
+    {
+      "name": "Laboratory",
+      "icon": "menu-icon tf-icons mdi mdi-flask-outline",
+      "slug": "laboratoire",
+      "url": "\/laboratory"
+    },
+    {
+      "name": "Add Pathology Team",
+      "icon": "menu-icon tf-icons mdi mdi-account-group",
+      "slug": "pathology",
+      "url": "\/pathology"
+    },
+    {
+      "name": "Add Features",
+      "slug": "features",
+      "icon": "menu-icon tf-icons mdi mdi-star-plus-outline",
+      "url": "\/features"
+    },
+    {
+      "name": "Subscription",
+      "icon": "menu-icon tf-icons mdi mdi-account-credit-card-outline",
+      "slug": "packs",
+      "submenu": [
+        {
+          "url": "\/plans",
+          "name": "View Plan",
+          "icon": "menu-icon tf-icons mdi mdi-view-list",
+          "slug": "view-packs"
+        },
+        {
+          "url": "\/view-subscribed",
+          "name": "View Subscribed",
+          "icon": "menu-icon tf-icons mdi mdi-plus-circle-outline",
+          "slug": "create-pack"
+        }
+      ]
+    },
+    {
+      "url": "\/tax-management",
+      "name": "Taxes",
+      "icon": "menu-icon tf-icons mdi mdi-finance",
+      "slug": "taxes"
+    },
+    {
+      "name": "Account Settings",
+      "icon": "menu-icon tf-icons mdi mdi-account-cog",
+      "slug": "account-settings",
+      "submenu": [
+        {
+          "url": "\/locations",
+          "name": "Locations",
+          "icon": "menu-icon tf-icons mdi mdi-map-marker",
+          "slug": "locations"
+        },
+        {
+          "url": "\/currencies",
+          "name": "Curency",
+          "icon": "menu-icon tf-icons mdi mdi-currency-usd",
+          "slug": "currencies"
+        },
+        {
+          "url": "pages\/account-settings-connections",
+          "name": "Payment Setting",
+          "icon": "menu-icon tf-icons mdi mdi-checkbox-marked-circle-outline",
+          "slug": "pages-account-settings-connections"
+        },
+        {
+          "url": "pages\/account-settings-notifications",
+          "name": "Service SMS",
+          "icon": "menu-icon tf-icons mdi mdi-message-outline",
+          "slug": "pages-account-settings-notifications"
+        },
+        {
+          "url": "pages\/account-settings-notifications",
+          "name": "Message SMS",
+          "icon": "menu-icon tf-icons mdi mdi-message-outline",
+          "slug": "pages-account-settings-notifications"
+        },
+        {
+          "url": "pages\/account-settings-notifications",
+          "name": "Email Setting",
+          "icon": "menu-icon tf-icons mdi mdi-email-outline",
+          "slug": "pages-account-settings-notifications"
+        },
+        {
+          "url": "pages\/account-settings-notifications",
+          "name": "Email Text",
+          "icon": "menu-icon tf-icons mdi mdi-email-outline",
+          "slug": "pages-account-settings-notifications"
+        }
+      ]
+    },
+    {
+      "name": "Role & Permission",
+      "icon": "menu-icon tf-icons mdi mdi-lock-open-outline",
+      "slug": "Role-permission",
+      "submenu": [
+        {
+          "url": "\/profileroles",
+          "name": "profiles",
+          "icon": "menu-icon tf-icons mdi mdi-account-group",
+          "slug": "extended-ui-perfect-scrollbar"
+        },
+        {
+          "url": "\/roles",
+          "name": "Roles ",
+          "icon": "menu-icon tf-icons mdi mdi-account-group",
+          "slug": "extended-ui-perfect-scrollbar"
+        }
+      ]
+    },
+    {
+      "url": "https:\/\/demos.themeselection.com\/materio-bootstrap-html-laravel-admin-template\/demo-1\/app\/calendar",
+      "icon": "menu-icon tf-icons mdi mdi-calendar-clock",
+      "name": "Appointment",
+      "slug": "appointment"
+    }
+  ]
+}
